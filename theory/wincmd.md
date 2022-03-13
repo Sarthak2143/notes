@@ -1,6 +1,6 @@
 # Regular windows commands
 
-```
+```bash
 # get current username
 whoami
 
