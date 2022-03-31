@@ -114,7 +114,7 @@ git commit -m "Commit message"
 
 ## Using HTTP
 
-1. Add remote repo location
+- Add remote repo location
 
 ```git
 git remote add origin https://github.com/<username>/<repo_name>
@@ -139,20 +139,20 @@ git pull origin <branch_name>
 
 ## Using SSH
 
-1. Clone repo
+- Clone repo
 
 ```git
 git clone git@github.com:USERNAME/REPO_NAME
 ```
 
-1. Add changes
+- Add changes
 
 ```git
 git add .
 git commit -m "Updated repo"
 ```
 
-1. Push Changes
+- Push Changes
 
 ```git
 git push

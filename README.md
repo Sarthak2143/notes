@@ -2,11 +2,23 @@
 
 These are my notes that I took during programming and pentesting engagements.
 
+**Website**: [Click Here](https://sarthak2143.github.io/notes)
+
+For a better Guide.
+
 ## Directory tree
 
 ```
-.
+.	
 ├── README.md
+├── docs
+│   ├── _config.yml
+│   ├── index.md
+│   └── src
+│       ├── git.md
+│       ├── linuxcmd.md
+│       ├── status_codes.md
+│       └── wincmd.md
 ├── scripts
 │   ├── bruteforce
 │   │   └── gmail_bruteforce.py
@@ -23,5 +35,5 @@ These are my notes that I took during programming and pentesting engagements.
     ├── status_codes.md
     └── wincmd.md
 
-4 directories, 12 files
+6 directories, 18 files
 ```
