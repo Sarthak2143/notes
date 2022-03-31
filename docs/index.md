@@ -4,24 +4,28 @@ I will keep them upto date with time and my skills.
 
 ## Theory:
 
-- [git commands](src/git.md)
+- [Git Commands](src/git.md)
 
-Short notes for git/github.
+Setting up Git and Github and basic commands.
 
-- [linux commands](src/linuxcmd.md)
+- [Linux Commands](src/linuxcmd.md)
 
 Basic Linux Commands.
 
-- [windows commands](src/wincmd.md)
+- [Windows Commands](src/wincmd.md)
 
 Basic Windowd Commands.
 
-- [status codes](src/status_codes.md)
+- [Status Codes](src/status_codes.md)
 
 All status codes with responses and meaning.
 
 ## Scripts:
 
-**Work in progress**
+[Click here](https://github.com/Sarthak2143/notes/tree/master/scripts)
 
+___
 
+### Support
+
+Having trouble with my notes? [Report an Issue](https://github.com/Sarthak2143/notes/issues).
