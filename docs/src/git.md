@@ -141,18 +141,18 @@ git pull origin <branch_name>
 
 1. Clone repo
 
-```bash
+```git
 git clone git@github.com:USERNAME/REPO_NAME
 ```
 
-2. Add changes
+1. Add changes
 
 ```git
 git add .
 git commit -m "Updated repo"
 ```
 
-3. Push Changes
+1. Push Changes
 
 ```git
 git push
