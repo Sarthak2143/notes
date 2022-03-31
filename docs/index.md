@@ -8,15 +8,15 @@ I will keep them upto date with time and my skills.
 
 Short notes for git/github.
 
-1. [linux commands](src/linuxcmd.md)
+2. [linux commands](src/linuxcmd.md)
 
 Basic Linux Commands.
 
-1. [windows commands](src/wincmd.md)
+3. [windows commands](src/wincmd.md)
 
 Basic Windowd Commands.
 
-1. [status codes](src/status_codes.md)
+4. [status codes](src/status_codes.md)
 
 All status codes with responses and meaning.
 
