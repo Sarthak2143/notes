@@ -22,6 +22,11 @@ try:
     print(response.decode())
     client.close()
 
+# keyboard interrupt
+
+except KeyboardInterrupt:
+    print("\nExiting...")
+
 # throw the error
 except Exception as e:
     print(e)

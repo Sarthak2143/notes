@@ -14,7 +14,7 @@ Basic Linux Commands.
 
 - [Windows Commands](src/wincmd.md)
 
-Basic Windowd Commands.
+Basic Windows Commands.
 
 - [Status Codes](src/status_codes.md)
 
@@ -24,8 +24,9 @@ All status codes with responses and meaning.
 
 [Click here](https://github.com/Sarthak2143/notes/tree/master/scripts)
 
-___
 
 ### Support
 
 Having trouble with my notes? [Report an Issue](https://github.com/Sarthak2143/notes/issues).
+
+___
