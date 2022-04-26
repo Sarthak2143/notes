@@ -8,7 +8,7 @@ I will keep them upto date with time and my skills.
 
 Setting up Git and Github and basic commands.
 
-- [TCP Client and Server](src/tcp_x.md)
+- [TCP Client and Server](src/tcp.md)
 
 Explaining and creating a basic TCP client and server.
 
