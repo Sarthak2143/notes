@@ -62,9 +62,14 @@ That's it for our TCP client, all the above code can be updated through your cho
 
 **All code for TCP client with `exceptions`:**
 
-```python3
-#!/usr/bin/env python3                                                                                                import socket
-                                                           target_host = "0.0.0.0"                                    target_port = 8000
+```python
+#!/usr/bin/env python3   
+
+import socket
+                                                      
+target_host = "0.0.0.0"    
+target_port = 8000
+
 
 #create a socket object
 
@@ -97,7 +102,7 @@ except Exception as e:
 
 - Importing required libraries (`socket`, `threading`)
 
-```python3
+```python
 import socket
 import threading
 ```
