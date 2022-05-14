@@ -15,10 +15,15 @@ For a better Guide.
 │   ├── _config.yml
 │   ├── index.md
 │   └── src
-│       ├── git.md                                         │       ├── linuxcmd.md
+│       ├── git.md                                        
+│       ├── linuxcmd.md
 │       ├── status_codes.md
-│       ├── tcp.md                                         │       └── wincmd.md                                      ├── scripts
-│   ├── bruteforce                                         │   │   └── gmail_bruteforce.py                            │   └── networking
+│       ├── tcp.md                                         
+│       └── wincmd.md                                      
+├── scripts
+│   ├── bruteforce                                       
+│   │   └── gmail_bruteforce.py                            
+│   └── networking
 │       ├── netcat.py
 │       ├── tcp_client.py
 │       ├── tcp_proxy.py
