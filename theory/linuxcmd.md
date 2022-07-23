@@ -6,7 +6,7 @@
 # list all files
 ls
 
-# list all hidden files
+# list all hidden files and perms
 ls -la
 
 # list files with perms
